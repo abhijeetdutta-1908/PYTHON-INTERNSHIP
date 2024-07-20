@@ -13,7 +13,7 @@ routes = Blueprint('routes', __name__)
 
 @routes.route('/')
 def home():
-    """Returns a welcome message for the Employee Management System."""
+    #Returns a welcome message for the Employee Management System.
     return "WELCOME TO THE EMPLOYEE MANAGEMENT SYSTEM"
 
 
